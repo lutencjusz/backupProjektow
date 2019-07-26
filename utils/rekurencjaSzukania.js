@@ -5,7 +5,7 @@ const archiver = require('archiver');
 //'Program Files', 'Program Files (x86)', 'ProgramData', 'All Users', 'Default', 'Documents'];
 
 const wyjatki = JSON.parse(fs.readFileSync(`${__dirname}/../wyjatki.json`));
-
+ 
 // utils
 
 exports.szukaj = function (dir, wzor) {
