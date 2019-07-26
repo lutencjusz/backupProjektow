@@ -1,0 +1,15 @@
+{
+  "name": "cmd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backupAplikacji.js",
+  "scripts": {
+    "start": "node backupAplikacji.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^3.0.3",
+    "dotenv": "^8.0.0"
+  }
+}
