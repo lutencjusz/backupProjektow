@@ -1,7 +1,7 @@
 const fs = require('fs');
 // const archiver = require('archiver');
 const dotenv = require('dotenv');
-const {sprawdzSciezke, archwizacja} = require('./utils/rekurencjaSzukania');
+const {sprawdzSciezke, archwizacja} = require('./rekurencjaSzukania');
 
 // zmienne 
 var SCIEZKA_ENV = 'c:/data/node/cmd';
